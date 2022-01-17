@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<main role="main" style="padding-top: 5vh;">
+
+    <section class="text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Tante Emma Burger</h1>
+            <p class="lead text-muted">Willkommen bei Tante Emma. Managen Sie spielend leicht ihr eigenes Restaurant.</p>
+        </div>
+    </section>
+
+    <div class="album py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="https://www.prinz-sportlich.de/wp-content/uploads/2018/10/Gesundes_Essen_bestellen_Auswahl_gesund_ungesund_shutterstock_1437909707-1500x842.jpg" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="https://www.prinz-sportlich.de/wp-content/uploads/2018/10/Gesundes_Essen_bestellen_Auswahl_gesund_ungesund_shutterstock_1437909707-1500x842.jpg" data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Wählen Sie aus einer Auswahl unserer besten Gerichte.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-outline-danger" asp-area="" asp-controller="Customer" asp-action="Menu">zur Speisekarte</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" data-src="https://www.kompetenzzentrum-kommunikation.de/wp-content/uploads/2019/07/Gastro-Digital-832x468.jpg" alt="Thumbnail [100%x225]" src="https://www.kompetenzzentrum-kommunikation.de/wp-content/uploads/2019/07/Gastro-Digital-832x468.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Schauen Sie sich die aktuellen Bestellungen an.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-outline-danger" asp-area="" asp-controller="Employee" asp-action="Index">Jetzt ansehen</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
